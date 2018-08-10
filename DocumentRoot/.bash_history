@@ -14,3 +14,7 @@ mysql -u testuser --password=testpassword testdb << db.sql
 mysql -u testuser --password=testpassword testdb < db.sql
 mysql -u testuser --password=testpassword testdb 
 exit
+mysql -u testuser --password=testpassword testdb
+mysql
+mysql -password=rootpwd
+exit
